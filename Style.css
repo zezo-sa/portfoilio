@@ -1,21 +1,63 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
+
+/* الهيدر */
 header {
-    background-color: #333;
+    background: linear-gradient(135deg, #0073e6, #00c6ff);
     color: white;
-    padding: 20px;
+    padding: 30px 10px;
+    font-size: 1.2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* الأقسام */
 section {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* العناوين */
+h2 {
+    color: #0073e6;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* قائمة المهارات */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #0073e6;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* روابط */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline
 }
 
